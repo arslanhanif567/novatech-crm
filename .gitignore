@@ -1,0 +1,12 @@
+## .NET gitignore
+bin/
+obj/
+*.user
+.vs/
+.idea/
+*.suo
+*.userprefs
+appsettings.Development.json
+*.db
+*.db-shm
+*.db-wal

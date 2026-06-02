@@ -1,0 +1,22 @@
+{
+  "name": "NovaTech CRM — .NET 8",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "postCreateCommand": "find . -name '*.csproj' -exec dotnet restore {} \\;",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "formulahendry.dotnet-test-explorer"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "[csharp]": {
+          "editor.defaultFormatter": "ms-dotnettools.csharp"
+        }
+      }
+    }
+  },
+  "remoteUser": "vscode"
+}
